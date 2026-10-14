@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plantillas y prótesis a medida — Clínica del Pie Cermeño</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Esteban&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  body{margin:0;background:#fff;color:#575757;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4,h6,p,ul{margin:0}
+  a{color:#1E78B1;text-decoration:none}
+  a:hover{color:#105480}
+  img{display:block;max-width:100%}
+</style>
+</helmet>
+
+<div style="width:100%; overflow-x:hidden; background:#fff">
+  <dc-import name="Cabecera" hint-size="100%,260px"></dc-import>
+
+  <div style="position:relative; display:flex; align-items:center; min-height:clamp(400px,(100vw - 767px)*1000,500px); overflow:hidden">
+    <img src="assets/web/galeria-1.jpg" alt="Confección de plantillas a medida" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover">
+    <div style="position:absolute; inset:0; background:linear-gradient(90deg,rgba(16,84,128,.86) 0%,rgba(16,84,128,.55) 60%,rgba(16,84,128,.22) 100%)"></div>
+    <div style="position:relative; width:100%; max-width:1140px; margin:0 auto; padding:48px 10px">
+      <div style="display:flex; flex-wrap:wrap; gap:8px; font-family:Mulish,'Segoe UI',sans-serif; font-size:13px; color:#E3D3B4">
+        <a href="index.html" style="color:#E3D3B4" style-hover="color:#fff">Inicio</a><span>›</span><span>Servicios</span>
+      </div>
+      <h1 style="font-family:Georgia,'Times New Roman',serif; font-weight:600; color:#fff; font-size:clamp(32px,(100vw - 767px)*1000,50px); line-height:1.15; margin-top:18px; max-width:680px; text-wrap:balance">Plantillas y prótesis</h1>
+      <p style="font-family:Esteban,Georgia,serif; font-size:clamp(18px,(100vw - 767px)*1000,21px); line-height:1.55; color:#EAF3F9; margin-top:14px; max-width:560px; text-wrap:pretty">Soportes plantares y ortesis de silicona confeccionados en la clínica</p>
+      <div style="display:flex; margin-top:26px">
+        <a href="tel:968231964" style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; color:#105480; background:#E3D3B4; padding:14px 24px" style-hover="background:#fff; color:#105480">Pedir cita · 968 23 19 64</a>
+      </div>
+    </div>
+  </div>
+
+  <div style="border-bottom:1px solid #E4EDF3">
+    <div style="max-width:1140px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:1px; background:#E4EDF3">
+      <div style="background:#fff; padding:24px 28px"><div style="font-family:Georgia,serif; font-size:clamp(24px,(100vw - 767px)*1000,30px); line-height:1.2; color:#9E804B">En la clínica</div><div style="font-family:Mulish,'Segoe UI',sans-serif; font-size:14px; color:#6b6b6b; margin-top:4px">Fabricadas sobre tu molde</div></div>
+      <div style="background:#fff; padding:24px 28px"><div style="font-family:Georgia,serif; font-size:clamp(24px,(100vw - 767px)*1000,30px); line-height:1.2; color:#9E804B">Misma sesión</div><div style="font-family:Mulish,'Segoe UI',sans-serif; font-size:14px; color:#6b6b6b; margin-top:4px">Entrega de ortesis de silicona</div></div>
+      <div style="background:#fff; padding:24px 28px"><div style="font-family:Georgia,serif; font-size:clamp(24px,(100vw - 767px)*1000,30px); line-height:1.2; color:#9E804B">Con revisiones</div><div style="font-family:Mulish,'Segoe UI',sans-serif; font-size:14px; color:#6b6b6b; margin-top:4px">Ajustes incluidos en el tratamiento</div></div>
+    </div>
+  </div>
+
+  <div style="max-width:1140px; margin:0 auto; padding:52px 10px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:44px; align-items:start">
+    <div style="display:flex; flex-direction:column; gap:1em; font-family:Mulish,'Segoe UI',sans-serif; font-size:clamp(15px,(100vw - 767px)*1000,17px); line-height:1.65; color:#575757; text-wrap:pretty">
+      <p>Una plantilla no es un accesorio de confort: es un tratamiento. Su función es redistribuir las presiones del pie y corregir o compensar el movimiento que está provocando el dolor, y para eso tiene que partir de un <a href="Servicio-Estudio-de-la-marcha.dc.html">estudio previo de la marcha</a>.</p>
+      <p>Fabricamos los soportes plantares y las ortesis de silicona en la propia clínica, a partir de tu molde. Eso nos permite ajustar el material, el grosor y las descargas al milímetro, adaptarlos a tu calzado habitual y modificarlos en la misma consulta si algo molesta.</p>
+      <p>Cada tratamiento incluye revisiones de control: comprobamos que el dolor cede, que la plantilla no roza y que sigue cumpliendo su función con el uso.</p>
+    </div>
+    <div style="background:#F4F8FB; padding:28px 26px">
+      <h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35">Para qué se indican</h4>
+      <ul style="list-style:none; padding:0; margin-top:14px; display:flex; flex-direction:column; gap:10px; font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.5; color:#6b6b6b">
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Descargar un punto de dolor en la planta</span></li>
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Corregir el apoyo en el pie infantil en crecimiento</span></li>
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Evitar que reaparezcan callos y durezas</span></li>
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Separar o alinear dedos y proteger juanetes</span></li>
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Prevenir lesiones en el <a href="Servicio-Pie-diabetico.dc.html">pie diabético</a></span></li>
+        <li style="display:flex; gap:11px"><i class="fa-solid fa-check" style="color:#BFA576; font-size:13px; margin-top:4px"></i><span>Mejorar el rendimiento y el confort en el deporte</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="max-width:1140px; margin:0 auto; padding:52px 10px 0">
+    <h2 style="font-family:Georgia,'Times New Roman',serif; font-weight:600; color:#1E78B1; font-size:clamp(24px,(100vw - 767px)*1000,30px); line-height:1.35">Tipos de tratamiento</h2>
+  </div>
+  <div style="max-width:1140px; margin:0 auto; padding:20px 10px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:18px">
+    <div style="background:#FAF7F1; padding:28px 24px">
+      <div style="width:48px; height:48px; background:#fff; border:1px solid #E3D3B4; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#1E78B1; margin-bottom:16px"><i class="fa-solid fa-ruler-combined" style="font-size:18px"></i></div>
+      <h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35">Soportes plantares a medida</h4>
+      <p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Plantillas fabricadas sobre tu molde, con las correcciones y descargas que indica el estudio. Distintos materiales según el peso, la actividad y el calzado.</p>
+    </div>
+    <div style="background:#FAF7F1; padding:28px 24px">
+      <div style="width:48px; height:48px; background:#fff; border:1px solid #E3D3B4; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#1E78B1; margin-bottom:16px"><i class="fa-solid fa-hand-holding-droplet" style="font-size:18px"></i></div>
+      <h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35">Ortesis de silicona</h4>
+      <p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Piezas moldeadas directamente sobre el dedo para separar, alinear o proteger la zona que roza. Se entregan en la misma sesión.</p>
+    </div>
+    <div style="background:#FAF7F1; padding:28px 24px">
+      <div style="width:48px; height:48px; background:#fff; border:1px solid #E3D3B4; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#1E78B1; margin-bottom:16px"><i class="fa-solid fa-shield-halved" style="font-size:18px"></i></div>
+      <h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35">Protectores y descargas</h4>
+      <p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Fieltros y protecciones para aliviar de inmediato un callo, un juanete o una zona de roce mientras se resuelve la causa.</p>
+    </div>
+  </div>
+
+  <div style="max-width:1140px; margin:0 auto; padding:56px 10px 0">
+    <h2 style="font-family:Georgia,'Times New Roman',serif; font-weight:600; color:#1E78B1; font-size:clamp(24px,(100vw - 767px)*1000,30px); line-height:1.35">El proceso</h2>
+    <p style="font-family:Mulish,'Segoe UI',sans-serif; font-weight:400; color:#9E804B; font-size:15px; line-height:1.5; margin-top:4px">Del molde a la revisión</p>
+  </div>
+  <div style="max-width:1140px; margin:0 auto; padding:22px 10px 0; display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:22px">
+    <div style="border-top:2px solid #BFA576; padding-top:16px"><p style="font-family:Georgia,serif; color:#BFA576; font-size:30px; line-height:1">01</p><h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35; margin-top:10px">Estudio</h4><p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Exploración biomecánica y análisis de la pisada para definir qué debe corregir la plantilla.</p></div>
+    <div style="border-top:2px solid #BFA576; padding-top:16px"><p style="font-family:Georgia,serif; color:#BFA576; font-size:30px; line-height:1">02</p><h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35; margin-top:10px">Molde</h4><p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Tomamos la forma exacta de tu pie en la posición de trabajo adecuada.</p></div>
+    <div style="border-top:2px solid #BFA576; padding-top:16px"><p style="font-family:Georgia,serif; color:#BFA576; font-size:30px; line-height:1">03</p><h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35; margin-top:10px">Confección</h4><p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Fabricamos la plantilla u ortesis en la clínica, con el material elegido para tu caso.</p></div>
+    <div style="border-top:2px solid #BFA576; padding-top:16px"><p style="font-family:Georgia,serif; color:#BFA576; font-size:30px; line-height:1">04</p><h4 style="font-family:Georgia,'Times New Roman',serif; font-weight:700; color:#1E78B1; font-size:18px; line-height:1.35; margin-top:10px">Adaptación</h4><p style="font-family:Mulish,'Segoe UI',sans-serif; font-size:15px; line-height:1.6; color:#6b6b6b; margin-top:8px; text-wrap:pretty">Entrega, prueba en tu calzado y revisiones para ajustar lo que haga falta.</p></div>
+  </div>
+
+  <div style="margin-top:56px; background:#105480">
+    <div style="max-width:1140px; margin:0 auto; padding:44px 10px; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:20px 40px">
+      <p style="font-family:Esteban,Georgia,serif; font-size:clamp(19px,(100vw - 767px)*1000,22px); line-height:1.45; color:#EAF3F9; max-width:620px; text-wrap:pretty">Consúltanos si tus plantillas actuales no te alivian.</p>
+      <a href="tel:968231964" style="font-family:Arial,Helvetica,sans-serif; font-size:clamp(28px,(100vw - 767px)*1000,36px); color:#E3D3B4; line-height:1.1" style-hover="color:#fff">968 23 19 64</a>
+    </div>
+  </div>
+
+  <div style="max-width:1140px; margin:0 auto; padding:36px 10px 16px; display:flex; flex-wrap:wrap; gap:12px 28px; font-family:Mulish,'Segoe UI',sans-serif; font-size:15px">
+    <span style="color:#9E804B">Otros servicios:</span>
+    <a href="Servicio-Diagnostico-y-tratamiento.dc.html">Diagnóstico y tratamiento</a>
+    <a href="Servicio-Estudio-de-la-marcha.dc.html">Estudio de la marcha</a>
+    <a href="Servicio-Pie-infantil-y-geriatrico.dc.html">Pie infantil y geriátrico</a>
+    <a href="Servicio-Pie-diabetico.dc.html">Pie diabético</a>
+    <a href="Servicio-Laser-de-diodo.dc.html">Láser de diodo</a>
+  </div>
+  <dc-import name="PiePagina" hint-size="100%,900px"></dc-import>
+</div>
+
+</x-dc>
+</body>
+</html>
